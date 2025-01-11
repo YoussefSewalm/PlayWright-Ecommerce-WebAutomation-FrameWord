@@ -8,7 +8,6 @@ public class FormFields extends ElementsBase {
 	}
     public void Type(String Information) 
     {
-    	//page.waitForCondition(() -> page.locator(StringLocator).isEnabled());
     	page.fill(StringLocator,Information);
     }
 }
