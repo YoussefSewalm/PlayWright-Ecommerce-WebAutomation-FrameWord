@@ -8,7 +8,6 @@ public class DropMenu extends ElementsBase {
 	}
     public void Select(String Choice) 
     {
-    	//page.waitForCondition(() -> page.locator(StringLocator).isEnabled());
     	int size_1 = page.locator(StringLocator).count();
     	for(int i=0;i<size_1;i++)
     	{
