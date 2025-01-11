@@ -11,7 +11,5 @@ public class L6_CartPage {
 	//Links
 	public static String RemoveItemFromCartLink = "//a[contains(text(),'Blue Top')]//parent::h4//parent::td//following-sibling::td[@class='cart_delete']//a";
 	public static String ProceedToCheckOutLink = "a[class='btn btn-default check_out']";
-	public static String RegisterOrLoginFromCheckOutLink = "//div[@class='modal-content']//div[@class='modal-body']//descendant::a";
-	
-	
+	public static String RegisterOrLoginFromCheckOutLink = "//div[@class='modal-content']//div[@class='modal-body']//descendant::a";	
 }
