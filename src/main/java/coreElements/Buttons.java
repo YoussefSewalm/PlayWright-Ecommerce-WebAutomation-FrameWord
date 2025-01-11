@@ -8,7 +8,6 @@ public class Buttons extends ElementsBase{
 	}
     public void Click() 
     {
-    	//page.waitForCondition(() -> page.locator(StringLocator).isEnabled());
     	page.click(StringLocator);
     }
 
