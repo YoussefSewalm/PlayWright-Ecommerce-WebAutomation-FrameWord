@@ -12,14 +12,11 @@ public class Links extends ElementsBase {
 	}
     public void Click() 
     {
-    	//page.waitForCondition(() -> page.locator(StringLocator).isEnabled());
     	page.click(StringLocator);
     }
     public void DownloadAndSaveFile()
     {
     	Download download = page.waitForDownload(()->{
-            
-            //WRITE CALLBACK FUNCTION BODY (ACTION TO START DOWNLOADING THE FILE, ex: Click download)
             page.locator(StringLocator).click();
        });
     	download.saveAs(Paths.get("Invoices.zip"));
