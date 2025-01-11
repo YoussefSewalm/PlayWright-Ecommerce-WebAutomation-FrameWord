@@ -7,6 +7,4 @@ public class L7_CheckOutPage {
 	
 	//Links
 	public static String PlaceOrderLink = "a[href='/payment']";
-	
-
 }
