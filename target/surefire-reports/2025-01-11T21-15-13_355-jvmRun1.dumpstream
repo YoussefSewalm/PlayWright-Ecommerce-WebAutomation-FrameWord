@@ -1,0 +1,3 @@
+# Created at 2025-01-11T21:15:15.586
+Cannot invoke "com.microsoft.playwright.Page.screenshot(com.microsoft.playwright.Page$ScreenshotOptions)" because "Pages.PlayWrightFactory.page" is null
+

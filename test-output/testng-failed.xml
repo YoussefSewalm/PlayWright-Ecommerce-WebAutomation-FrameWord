@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="ExtentReports.ExtentTestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="CartTests(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Tests.CartTests">
+        <methods>
+          <include name="StartSession"/>
+          <include name="CheckingRemoveItemsFromCart"/>
+          <include name="EndSession"/>
+          <include name="CheckingItemsPrices"/>
+          <include name="NavigateToProductsPage"/>
+        </methods>
+      </class> <!-- Tests.CartTests -->
+    </classes>
+  </test> <!-- CartTests(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->

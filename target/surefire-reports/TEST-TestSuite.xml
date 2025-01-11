@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="92.894" tests="8" errors="0" skipped="1" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1256"/>
+    <property name="java.class.path" value="E:\MohamedTarekEmbeddedAndSoftwareTestingDiploma\JavaTestingWorkspace\PlayWrightFirstTest\target\test-classes;E:\MohamedTarekEmbeddedAndSoftwareTestingDiploma\JavaTestingWorkspace\PlayWrightFirstTest\target\classes;C:\Users\giga\.m2\repository\com\microsoft\playwright\playwright\1.49.0\playwright-1.49.0.jar;C:\Users\giga\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\giga\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\giga\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\giga\.m2\repository\com\microsoft\playwright\driver\1.49.0\driver-1.49.0.jar;C:\Users\giga\.m2\repository\com\microsoft\playwright\driver-bundle\1.49.0\driver-bundle-1.49.0.jar;C:\Users\giga\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\giga\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\giga\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\giga\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\giga\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\giga\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\giga\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\giga\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\giga\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\giga\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\giga\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\giga\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\giga\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\giga\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\giga\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\giga\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\giga\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\giga\AppData\Local\Temp\surefire14361235953729907277\surefirebooter-20250106233948994_3.jar C:\Users\giga\AppData\Local\Temp\surefire14361235953729907277 2025-01-06T23-39-48_672-jvmRun1 surefire-20250106233948994_1tmp surefire_0-20250106233948994_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\MohamedTarekEmbeddedAndSoftwareTestingDiploma\JavaTestingWorkspace\PlayWrightFirstTest\target\test-classes;E:\MohamedTarekEmbeddedAndSoftwareTestingDiploma\JavaTestingWorkspace\PlayWrightFirstTest\target\classes;C:\Users\giga\.m2\repository\com\microsoft\playwright\playwright\1.49.0\playwright-1.49.0.jar;C:\Users\giga\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\giga\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\giga\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\giga\.m2\repository\com\microsoft\playwright\driver\1.49.0\driver-1.49.0.jar;C:\Users\giga\.m2\repository\com\microsoft\playwright\driver-bundle\1.49.0\driver-bundle-1.49.0.jar;C:\Users\giga\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\giga\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\giga\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\giga\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\giga\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\giga\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\giga\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\giga\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\giga\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\giga\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\giga\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\giga\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\giga\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\giga\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\giga\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\giga\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\giga\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\giga"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\MohamedTarekEmbeddedAndSoftwareTestingDiploma\JavaTestingWorkspace\PlayWrightFirstTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\giga\AppData\Local\Temp\surefire14361235953729907277\surefirebooter-20250106233948994_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
+    <property name="user.name" value="giga"/>
+    <property name="stdout.encoding" value="Cp1256"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\giga\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\giga\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="E:\MohamedTarekEmbeddedAndSoftwareTestingDiploma\JavaTestingWorkspace\PlayWrightFirstTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1256"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\MohamedTarekEmbeddedAndSoftwareTestingDiploma\Selenium webdriver automation Udemy\allure-2.32.0\bin;E:\MohamedTarekEmbeddedAndSoftwareTestingDiploma\GitHub\Git\cmd;C:\Program Files\Java\jdk-21.0.2\bin;C:\Program Files\Java\jdk-21.0.2;F:\Android\android-sdk;C:\WINDOWS\system32\cmd.exe;E:\MohamedTarekEmbeddedAndSoftwareTestingDiploma\Selenium webdriver automation Udemy\Apache Maven\apache-maven-3.9.9\bin;E:\MohamedTarekEmbeddedAndSoftwareTestingDiploma\Selenium webdriver automation Udemy\Apache Maven\apache-maven-3.9.9;F:\Android;F:\Android\android-sdk\tools;F:\Android\android-sdk\tools\bin;F:\Android\android-sdk\platform-tools;C:\WINDOWS\system32;C:\Program Files\Common Files\Oracle\Java\javapath;F:\Android\android-sdk;C:\Users\giga\scoop\apps\allure\current,C:\Users\giga\.m2\repository\allure\allure-2.30.0;C:\Users\giga\AppData\Roaming\npm\node_modules\appium\node_modules\.bin;C:\Users\giga\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver;C:\WINDOWS\system32\WindowsPowerShell\v1.0\;F:\Android\nodejs\;F:\Android\nodejs\node_modules;F:\Android\nodejs\node_modules\npm\bin;F:\Android\nodejs\node_modules\npm\node_modules;C:\Users\giga\AppData\Roaming\npm\node_modules\appium\build\lib;C:\Users\giga\AppData\Roaming\npm\node_modules\appium\node_modules;C:\Users\giga\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver;C:\Users\giga\AppData\Roaming\npm\node_modules\appium\node_modules\.bin;C:\Users\giga\AppData\Roaming\npm;F:\Android\nodejs\node_modules\appium;F:\Android\nodejs\node_modules\appium\build\lib\cli;C:\Users\giga\scoop\shims;C:\Users\giga\AppData\Local\Microsoft\WindowsApps;E:\Mohamed Tarek Embedded and Software Testing Diploma\Selenium webdriver automation Udemy\allure-2.32.0\bin;E:\MohamedTarekEmbeddedAndSoftwareTestingDiploma\Selenium webdriver automation Udemy\Apache Maven\apache-maven-3.9.9\bin;C:\Users\giga\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jdk-21.0.2;C:\Program Files\Java\jdk-21.0.2\bin;C:\Users\giga\AppData\Roaming\npm\node_modules\appium\node_modules\.bin;F:\Android\Android Studio Install\Android Studio\bin;F:\Android;F:\Android\android-sdk\platform-tools;C:\Users\giga\AppData\Roaming\npm\node_modules\appium\build\lib;C:\Users\giga\AppData\Roaming\npm\node_modules\appium\node_modules;C:\Users\giga\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver;C:\WINDOWS\system32\WindowsPowerShell\v1.0\;C:\Users\giga\AppData\Roaming\npm;C:\Users\giga\AppData\Roaming\npm\node_modules;C:\Users\giga\AppData\Roaming\npm\node_modules\npm;C:\Users\giga\AppData\Roaming\npm\node_modules\npm\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1256"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-LTS-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="ValidSignUp" classname="Tests.SignUp" time="3.255">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="CheckingRemoveItemsFromCart[{SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantity=3, Name=Mr. youssef sewalm, SecondItemQuantity=1, MobileNumber=01013940558, Address_1=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, EmptyCartMessage=empty!, Address_2=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, SecondItem=Men Tshirt, FirstItem=Blue Top, Country=India, AddedSuccessfullyMessage=Added!, LoginPassword=12345678}](1)" classname="Tests.CartTests" time="23.598"/>
+  <testcase name="NavigateToProductsPage" classname="Tests.CartTests" time="2.62">
+    <failure message="Error {&#10;  message=&apos;Target page, context or browser has been closed&#10;  name=&apos;TargetClosedError&#10;  stack=&apos;TargetClosedError: Target page, context or browser has been closed&#10;    at DispatcherConnection.dispatch (C:\Users\giga\AppData\Local\Temp\playwright-java-6764252199987345375\package\lib\server\dispatchers\dispatcher.js:273:44)&#10;    at transport.onmessage (C:\Users\giga\AppData\Local\Temp\playwright-java-6764252199987345375\package\lib\cli\driver.js:52:57)&#10;    at Immediate._onImmediate (C:\Users\giga\AppData\Local\Temp\playwright-java-6764252199987345375\package\lib\protocol\transport.js:77:34)&#10;    at process.processImmediate (node:internal/timers:491:21)&#10;}" type="com.microsoft.playwright.impl.TargetClosedError"><![CDATA[com.microsoft.playwright.impl.TargetClosedError: 
+Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\giga\AppData\Local\Temp\playwright-java-6764252199987345375\package\lib\server\dispatchers\dispatcher.js:273:44)
+    at transport.onmessage (C:\Users\giga\AppData\Local\Temp\playwright-java-6764252199987345375\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\giga\AppData\Local\Temp\playwright-java-6764252199987345375\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.PageImpl.lambda$click$18(PageImpl.java:688)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:687)
+	at com.microsoft.playwright.Page.click(Page.java:3914)
+	at coreElements.Links.Click(Links.java:16)
+	at Tests.CartTests.NavigateToProductsPage(CartTests.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\giga\AppData\Local\Temp\playwright-java-6764252199987345375\package\lib\server\dispatchers\dispatcher.js:273:44)
+    at transport.onmessage (C:\Users\giga\AppData\Local\Temp\playwright-java-6764252199987345375\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\giga\AppData\Local\Temp\playwright-java-6764252199987345375\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 42 more
+]]></failure>
+  </testcase>
+  <testcase name="CheckingItemsPrices" classname="Tests.CartTests" time="0">
+    <skipped message="Error {&#10;  message=&apos;Target page, context or browser has been closed&#10;  name=&apos;TargetClosedError&#10;  stack=&apos;TargetClosedError: Target page, context or browser has been closed&#10;    at DispatcherConnection.dispatch (C:\Users\giga\AppData\Local\Temp\playwright-java-6764252199987345375\package\lib\server\dispatchers\dispatcher.js:273:44)&#10;    at transport.onmessage (C:\Users\giga\AppData\Local\Temp\playwright-java-6764252199987345375\package\lib\cli\driver.js:52:57)&#10;    at Immediate._onImmediate (C:\Users\giga\AppData\Local\Temp\playwright-java-6764252199987345375\package\lib\protocol\transport.js:77:34)&#10;    at process.processImmediate (node:internal/timers:491:21)&#10;}"/>
+  </testcase>
+  <testcase name="ValidLogin[{LoginEmail=w4rior44500@gmail.com, LoginPassword=12345678}](1)" classname="Tests.Login" time="1.584"/>
+  <testcase name="AddItemsToCart[{SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantity=3, Name=Mr. youssef sewalm, SecondItemQuantity=1, MobileNumber=01013940558, Address_1=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, EmptyCartMessage=empty!, Address_2=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, SecondItem=Men Tshirt, FirstItem=Blue Top, Country=India, AddedSuccessfullyMessage=Added!, LoginPassword=12345678}](1)" classname="Tests.AddingItemsToCart" time="3.367"/>
+  <testcase name="CheckingProductDetails[{SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantity=3, Name=Mr. youssef sewalm, SecondItemQuantity=1, MobileNumber=01013940558, Address_1=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, EmptyCartMessage=empty!, Address_2=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, SecondItem=Men Tshirt, FirstItem=Blue Top, Country=India, AddedSuccessfullyMessage=Added!, LoginPassword=12345678}](1)" classname="Tests.AddingItemsToCart" time="2.658"/>
+  <testcase name="CheckingSearchFunctionality[{SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantity=3, Name=Mr. youssef sewalm, SecondItemQuantity=1, MobileNumber=01013940558, Address_1=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, EmptyCartMessage=empty!, Address_2=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, SecondItem=Men Tshirt, FirstItem=Blue Top, Country=India, AddedSuccessfullyMessage=Added!, LoginPassword=12345678}](1)" classname="Tests.AddingItemsToCart" time="1.659"/>
+</testsuite>

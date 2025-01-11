@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-12T00:10:07 EET" name="Suite" finished-at="2025-01-12T00:11:55 EET" duration-ms="108095">
+    <groups>
+      <group name="Regression">
+        <method signature="Login.InValidLogin(java.util.HashMap)[pri:0, instance:Tests.Login@33ecda92]" name="InValidLogin" class="Tests.Login"/>
+        <method signature="PurchaseTests.FullPurchaseProcessAlreadyLogin(java.util.HashMap)[pri:0, instance:Tests.PurchaseTests@46046c06]" name="FullPurchaseProcessAlreadyLogin" class="Tests.PurchaseTests"/>
+        <method signature="PurchaseTests.FullPurchaseProcessNotLoggedIn(java.util.HashMap)[pri:0, instance:Tests.PurchaseTests@46046c06]" name="FullPurchaseProcessNotLoggedIn" class="Tests.PurchaseTests"/>
+        <method signature="PurchaseTests.FullPurchaseProcessNotRegistered(java.util.HashMap)[pri:0, instance:Tests.PurchaseTests@46046c06]" name="FullPurchaseProcessNotRegistered" class="Tests.PurchaseTests"/>
+        <method signature="SignUp.InvalidRegisterUsingAlreadyRegisteredEmail()[pri:0, instance:Tests.SignUp@7fdd43cd]" name="InvalidRegisterUsingAlreadyRegisteredEmail" class="Tests.SignUp"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="CartTests.CheckingRemoveItemsFromCart(java.util.HashMap)[pri:0, instance:Tests.CartTests@15888343]" name="CheckingRemoveItemsFromCart" class="Tests.CartTests"/>
+        <method signature="CartTests.CheckingItemsPrices(java.util.HashMap)[pri:0, instance:Tests.CartTests@15888343]" name="CheckingItemsPrices" class="Tests.CartTests"/>
+        <method signature="Login.ValidLogin(java.util.HashMap)[pri:0, instance:Tests.Login@33ecda92]" name="ValidLogin" class="Tests.Login"/>
+        <method signature="SignUp.ValidSignUpThenDelete()[pri:0, instance:Tests.SignUp@7fdd43cd]" name="ValidSignUpThenDelete" class="Tests.SignUp"/>
+        <method signature="AddingItemsToCart.AddItemsToCart(java.util.HashMap)[pri:0, instance:Tests.AddingItemsToCart@65f8f5ae]" name="AddItemsToCart" class="Tests.AddingItemsToCart"/>
+        <method signature="AddingItemsToCart.CheckingProductDetails(java.util.HashMap)[pri:0, instance:Tests.AddingItemsToCart@65f8f5ae]" name="CheckingProductDetails" class="Tests.AddingItemsToCart"/>
+        <method signature="AddingItemsToCart.CheckingSearchFunctionality(java.util.HashMap)[pri:0, instance:Tests.AddingItemsToCart@65f8f5ae]" name="CheckingSearchFunctionality" class="Tests.AddingItemsToCart"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-01-12T00:10:07 EET" name="AllTests" finished-at="2025-01-12T00:11:55 EET" duration-ms="108095">
+      <class name="Tests.SignUp">
+        <test-method is-config="true" signature="StartSession()[pri:0, instance:Tests.SignUp@7fdd43cd]" started-at="2025-01-12T00:11:38 EET" name="StartSession" finished-at="2025-01-12T00:11:49 EET" duration-ms="11700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartSession -->
+        <test-method is-config="true" signature="NavigateToHomePage()[pri:0, instance:Tests.SignUp@7fdd43cd]" started-at="2025-01-12T00:11:49 EET" name="NavigateToHomePage" finished-at="2025-01-12T00:11:50 EET" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHomePage -->
+        <test-method signature="InvalidRegisterUsingAlreadyRegisteredEmail()[pri:0, instance:Tests.SignUp@7fdd43cd]" started-at="2025-01-12T00:11:50 EET" name="InvalidRegisterUsingAlreadyRegisteredEmail" finished-at="2025-01-12T00:11:51 EET" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidRegisterUsingAlreadyRegisteredEmail -->
+        <test-method is-config="true" signature="NavigateToHomePage()[pri:0, instance:Tests.SignUp@7fdd43cd]" started-at="2025-01-12T00:11:51 EET" name="NavigateToHomePage" finished-at="2025-01-12T00:11:52 EET" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHomePage -->
+        <test-method signature="ValidSignUpThenDelete()[pri:0, instance:Tests.SignUp@7fdd43cd]" started-at="2025-01-12T00:11:52 EET" name="ValidSignUpThenDelete" finished-at="2025-01-12T00:11:55 EET" duration-ms="3173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidSignUpThenDelete -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:Tests.SignUp@7fdd43cd]" started-at="2025-01-12T00:11:55 EET" name="EndSession" finished-at="2025-01-12T00:11:55 EET" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- Tests.SignUp -->
+      <class name="Tests.Login">
+        <test-method is-config="true" signature="StartSession()[pri:0, instance:Tests.Login@33ecda92]" started-at="2025-01-12T00:10:43 EET" name="StartSession" finished-at="2025-01-12T00:10:52 EET" duration-ms="9763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartSession -->
+        <test-method is-config="true" signature="NavigateToHomePage()[pri:0, instance:Tests.Login@33ecda92]" started-at="2025-01-12T00:10:52 EET" name="NavigateToHomePage" finished-at="2025-01-12T00:10:53 EET" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHomePage -->
+        <test-method signature="InValidLogin(java.util.HashMap)[pri:0, instance:Tests.Login@33ecda92]" started-at="2025-01-12T00:10:53 EET" name="InValidLogin" data-provider="getInValidLoginData" finished-at="2025-01-12T00:10:54 EET" duration-ms="1117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LoginEmail=w4rior4410000@gmail.com, LoginPassword=12345678}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidLogin -->
+        <test-method is-config="true" signature="NavigateToHomePage()[pri:0, instance:Tests.Login@33ecda92]" started-at="2025-01-12T00:10:54 EET" name="NavigateToHomePage" finished-at="2025-01-12T00:10:55 EET" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHomePage -->
+        <test-method signature="ValidLogin(java.util.HashMap)[pri:0, instance:Tests.Login@33ecda92]" started-at="2025-01-12T00:10:55 EET" name="ValidLogin" data-provider="getValidLoginData" finished-at="2025-01-12T00:10:56 EET" duration-ms="1649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LoginEmail=w4rior44500@gmail.com, LoginPassword=12345678}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:Tests.Login@33ecda92]" started-at="2025-01-12T00:10:57 EET" name="EndSession" finished-at="2025-01-12T00:10:57 EET" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- Tests.Login -->
+      <class name="Tests.PurchaseTests">
+        <test-method is-config="true" signature="StartSession()[pri:0, instance:Tests.PurchaseTests@46046c06]" started-at="2025-01-12T00:10:57 EET" name="StartSession" finished-at="2025-01-12T00:11:07 EET" duration-ms="10069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartSession -->
+        <test-method signature="FullPurchaseProcessAlreadyLogin(java.util.HashMap)[pri:0, instance:Tests.PurchaseTests@46046c06]" started-at="2025-01-12T00:11:07 EET" name="FullPurchaseProcessAlreadyLogin" data-provider="PurchasedItems" finished-at="2025-01-12T00:11:16 EET" duration-ms="9051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantity=3, Name=Mr. youssef sewalm, SecondItemQuantity=1, MobileNumber=01013940558, Address_1=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, EmptyCartMessage=empty!, Address_2=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, SecondItem=Men Tshirt, FirstItem=Blue Top, Country=India, AddedSuccessfullyMessage=Added!, LoginPassword=12345678}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FullPurchaseProcessAlreadyLogin -->
+        <test-method signature="FullPurchaseProcessNotLoggedIn(java.util.HashMap)[pri:0, instance:Tests.PurchaseTests@46046c06]" started-at="2025-01-12T00:11:17 EET" name="FullPurchaseProcessNotLoggedIn" data-provider="PurchasedItems" finished-at="2025-01-12T00:11:26 EET" duration-ms="9826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantity=3, Name=Mr. youssef sewalm, SecondItemQuantity=1, MobileNumber=01013940558, Address_1=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, EmptyCartMessage=empty!, Address_2=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, SecondItem=Men Tshirt, FirstItem=Blue Top, Country=India, AddedSuccessfullyMessage=Added!, LoginPassword=12345678}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FullPurchaseProcessNotLoggedIn -->
+        <test-method signature="FullPurchaseProcessNotRegistered(java.util.HashMap)[pri:0, instance:Tests.PurchaseTests@46046c06]" started-at="2025-01-12T00:11:27 EET" name="FullPurchaseProcessNotRegistered" data-provider="PurchasedItems_Reg" finished-at="2025-01-12T00:11:37 EET" duration-ms="9896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstItem=Blue Top, SecondItemQuantity=1, FirstItemQuantity=3, AddedSuccessfullyMessage=Added!, SecondItem=Men Tshirt}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FullPurchaseProcessNotRegistered -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:Tests.PurchaseTests@46046c06]" started-at="2025-01-12T00:11:37 EET" name="EndSession" finished-at="2025-01-12T00:11:38 EET" duration-ms="1072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- Tests.PurchaseTests -->
+      <class name="Tests.AddingItemsToCart">
+        <test-method is-config="true" signature="StartSession()[pri:0, instance:Tests.AddingItemsToCart@65f8f5ae]" started-at="2025-01-12T00:10:07 EET" name="StartSession" finished-at="2025-01-12T00:10:19 EET" duration-ms="11353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartSession -->
+        <test-method is-config="true" signature="NavigateToHomePage()[pri:0, instance:Tests.AddingItemsToCart@65f8f5ae]" started-at="2025-01-12T00:10:19 EET" name="NavigateToHomePage" finished-at="2025-01-12T00:10:20 EET" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHomePage -->
+        <test-method signature="AddItemsToCart(java.util.HashMap)[pri:0, instance:Tests.AddingItemsToCart@65f8f5ae]" started-at="2025-01-12T00:10:20 EET" name="AddItemsToCart" data-provider="ItemsAddedToCart" finished-at="2025-01-12T00:10:22 EET" duration-ms="2625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantity=3, Name=Mr. youssef sewalm, SecondItemQuantity=1, MobileNumber=01013940558, Address_1=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, EmptyCartMessage=empty!, Address_2=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, SecondItem=Men Tshirt, FirstItem=Blue Top, Country=India, AddedSuccessfullyMessage=Added!, LoginPassword=12345678}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddItemsToCart -->
+        <test-method is-config="true" signature="NavigateToHomePage()[pri:0, instance:Tests.AddingItemsToCart@65f8f5ae]" started-at="2025-01-12T00:10:23 EET" name="NavigateToHomePage" finished-at="2025-01-12T00:10:24 EET" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHomePage -->
+        <test-method signature="CheckingProductDetails(java.util.HashMap)[pri:0, instance:Tests.AddingItemsToCart@65f8f5ae]" started-at="2025-01-12T00:10:24 EET" name="CheckingProductDetails" data-provider="ProductDetails" finished-at="2025-01-12T00:10:26 EET" duration-ms="2057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantity=3, Name=Mr. youssef sewalm, SecondItemQuantity=1, MobileNumber=01013940558, Address_1=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, EmptyCartMessage=empty!, Address_2=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, SecondItem=Men Tshirt, FirstItem=Blue Top, Country=India, AddedSuccessfullyMessage=Added!, LoginPassword=12345678}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckingProductDetails -->
+        <test-method is-config="true" signature="NavigateToHomePage()[pri:0, instance:Tests.AddingItemsToCart@65f8f5ae]" started-at="2025-01-12T00:10:26 EET" name="NavigateToHomePage" finished-at="2025-01-12T00:10:26 EET" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHomePage -->
+        <test-method signature="CheckingSearchFunctionality(java.util.HashMap)[pri:0, instance:Tests.AddingItemsToCart@65f8f5ae]" started-at="2025-01-12T00:10:26 EET" name="CheckingSearchFunctionality" data-provider="ProductDetails" finished-at="2025-01-12T00:10:28 EET" duration-ms="1374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantity=3, Name=Mr. youssef sewalm, SecondItemQuantity=1, MobileNumber=01013940558, Address_1=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, EmptyCartMessage=empty!, Address_2=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, SecondItem=Men Tshirt, FirstItem=Blue Top, Country=India, AddedSuccessfullyMessage=Added!, LoginPassword=12345678}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckingSearchFunctionality -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:Tests.AddingItemsToCart@65f8f5ae]" started-at="2025-01-12T00:10:28 EET" name="EndSession" finished-at="2025-01-12T00:10:28 EET" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- Tests.AddingItemsToCart -->
+      <class name="Tests.CartTests">
+        <test-method is-config="true" signature="StartSession()[pri:0, instance:Tests.CartTests@15888343]" started-at="2025-01-12T00:10:28 EET" name="StartSession" finished-at="2025-01-12T00:10:37 EET" duration-ms="8218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartSession -->
+        <test-method is-config="true" signature="NavigateToProductsPage()[pri:0, instance:Tests.CartTests@15888343]" started-at="2025-01-12T00:10:37 EET" name="NavigateToProductsPage" finished-at="2025-01-12T00:10:37 EET" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToProductsPage -->
+        <test-method signature="CheckingRemoveItemsFromCart(java.util.HashMap)[pri:0, instance:Tests.CartTests@15888343]" started-at="2025-01-12T00:10:37 EET" name="CheckingRemoveItemsFromCart" data-provider="ItemDetails" finished-at="2025-01-12T00:10:38 EET" duration-ms="1603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantity=3, Name=Mr. youssef sewalm, SecondItemQuantity=1, MobileNumber=01013940558, Address_1=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, EmptyCartMessage=empty!, Address_2=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, SecondItem=Men Tshirt, FirstItem=Blue Top, Country=India, AddedSuccessfullyMessage=Added!, LoginPassword=12345678}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckingRemoveItemsFromCart -->
+        <test-method is-config="true" signature="NavigateToProductsPage()[pri:0, instance:Tests.CartTests@15888343]" started-at="2025-01-12T00:10:39 EET" name="NavigateToProductsPage" finished-at="2025-01-12T00:10:39 EET" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToProductsPage -->
+        <test-method signature="CheckingItemsPrices(java.util.HashMap)[pri:0, instance:Tests.CartTests@15888343]" started-at="2025-01-12T00:10:39 EET" name="CheckingItemsPrices" data-provider="PurchasedItems" finished-at="2025-01-12T00:10:42 EET" depends-on-methods="Tests.CartTests.CheckingRemoveItemsFromCart" duration-ms="2893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantity=3, Name=Mr. youssef sewalm, SecondItemQuantity=1, MobileNumber=01013940558, Address_1=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, EmptyCartMessage=empty!, Address_2=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, SecondItem=Men Tshirt, FirstItem=Blue Top, Country=India, AddedSuccessfullyMessage=Added!, LoginPassword=12345678}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckingItemsPrices -->
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:Tests.CartTests@15888343]" started-at="2025-01-12T00:10:42 EET" name="EndSession" finished-at="2025-01-12T00:10:43 EET" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSession -->
+      </class> <!-- Tests.CartTests -->
+    </test> <!-- AllTests -->
+  </suite> <!-- Suite -->
+</testng-results>

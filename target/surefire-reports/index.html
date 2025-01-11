@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SmokeTests" class="navigator-link">
+              <span class="suite-name border-skipped">SmokeTests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SmokeTests" class="navigator-link ">
+                    <span>E:\MohamedTarekEmbeddedAndSoftwareTestingDiploma\JavaTestingWorkspace\PlayWrightFirstTest\SmokeTests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SmokeTests" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SmokeTests" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SmokeTests" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SmokeTests" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SmokeTests" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SmokeTests" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,  1 skipped,  6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-SmokeTests" class="hide-methods skipped suite-SmokeTests"> (hide)</a> <!-- hide-methods skipped suite-SmokeTests -->
+                      <a href="#" panel-name="suite-SmokeTests" class="show-methods skipped suite-SmokeTests"> (show)</a> <!-- show-methods skipped suite-SmokeTests -->
+                    </span>
+                    <div class="method-list-content skipped suite-SmokeTests">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTests" title="Tests.CartTests" class="method navigator-link" hash-for-method="CheckingItemsPrices">CheckingItemsPrices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-SmokeTests -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SmokeTests" class="hide-methods passed suite-SmokeTests"> (hide)</a> <!-- hide-methods passed suite-SmokeTests -->
+                      <a href="#" panel-name="suite-SmokeTests" class="show-methods passed suite-SmokeTests"> (show)</a> <!-- show-methods passed suite-SmokeTests -->
+                    </span>
+                    <div class="method-list-content passed suite-SmokeTests">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTests" title="Tests.AddingItemsToCart" class="method navigator-link" hash-for-method="AddItemsToCart({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...)">AddItemsToCart({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTests" title="Tests.AddingItemsToCart" class="method navigator-link" hash-for-method="CheckingProductDetails({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...)">CheckingProductDetails({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTests" title="Tests.CartTests" class="method navigator-link" hash-for-method="CheckingRemoveItemsFromCart({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...)">CheckingRemoveItemsFromCart({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTests" title="Tests.AddingItemsToCart" class="method navigator-link" hash-for-method="CheckingSearchFunctionality({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...)">CheckingSearchFunctionality({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTests" title="Tests.Login" class="method navigator-link" hash-for-method="ValidLogin({LoginEmail=w4rior44500@gmail.com, LoginPassword=12345678})">ValidLogin({LoginEmail=w4rior44500@gmail.com, LoginPassword=12345678})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTests" title="Tests.SignUp" class="method navigator-link" hash-for-method="ValidSignUp">ValidSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SmokeTests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SmokeTests" class="panel SmokeTests">
+          <div class="suite-SmokeTests-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Tests.CartTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckingItemsPrices">
+                  </a> <!-- CheckingItemsPrices -->
+                  <span class="method-name">CheckingItemsPrices</span>
+                  <div class="stack-trace">com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\giga\AppData\Local\Temp\playwright-java-6764252199987345375\package\lib\server\dispatchers\dispatcher.js:273:44)
+    at transport.onmessage (C:\Users\giga\AppData\Local\Temp\playwright-java-6764252199987345375\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\giga\AppData\Local\Temp\playwright-java-6764252199987345375\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.PageImpl.lambda$click$18(PageImpl.java:688)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:687)
+	at com.microsoft.playwright.Page.click(Page.java:3914)
+	at coreElements.Links.Click(Links.java:16)
+	at Tests.CartTests.NavigateToProductsPage(CartTests.java:26)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\giga\AppData\Local\Temp\playwright-java-6764252199987345375\package\lib\server\dispatchers\dispatcher.js:273:44)
+    at transport.onmessage (C:\Users\giga\AppData\Local\Temp\playwright-java-6764252199987345375\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\giga\AppData\Local\Temp\playwright-java-6764252199987345375\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 42 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTests-class-skipped -->
+          <div class="suite-SmokeTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidLogin({LoginEmail=w4rior44500@gmail.com, LoginPassword=12345678})">
+                  </a> <!-- ValidLogin({LoginEmail=w4rior44500@gmail.com, LoginPassword=12345678}) -->
+                  <span class="method-name">ValidLogin</span>
+                  <span class="parameters">({LoginEmail=w4rior44500@gmail.com, LoginPassword=12345678})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTests-class-passed -->
+          <div class="suite-SmokeTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.AddingItemsToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddItemsToCart({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...)">
+                  </a> <!-- AddItemsToCart({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...) -->
+                  <span class="method-name">AddItemsToCart</span>
+                  <span class="parameters">({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantity=3, Name=Mr. youssef sewalm, SecondItemQuantity=1, MobileNumber=01013940558, Address_1=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, EmptyCartMessage=empty!, Address_2=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, SecondItem=Men Tshirt, FirstItem=Blue Top, Country=India, AddedSuccessfullyMessage=Added!, LoginPassword=12345678})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckingProductDetails({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...)">
+                  </a> <!-- CheckingProductDetails({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...) -->
+                  <span class="method-name">CheckingProductDetails</span>
+                  <span class="parameters">({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantity=3, Name=Mr. youssef sewalm, SecondItemQuantity=1, MobileNumber=01013940558, Address_1=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, EmptyCartMessage=empty!, Address_2=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, SecondItem=Men Tshirt, FirstItem=Blue Top, Country=India, AddedSuccessfullyMessage=Added!, LoginPassword=12345678})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckingSearchFunctionality({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...)">
+                  </a> <!-- CheckingSearchFunctionality({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...) -->
+                  <span class="method-name">CheckingSearchFunctionality</span>
+                  <span class="parameters">({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantity=3, Name=Mr. youssef sewalm, SecondItemQuantity=1, MobileNumber=01013940558, Address_1=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, EmptyCartMessage=empty!, Address_2=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, SecondItem=Men Tshirt, FirstItem=Blue Top, Country=India, AddedSuccessfullyMessage=Added!, LoginPassword=12345678})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTests-class-passed -->
+          <div class="suite-SmokeTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.CartTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckingRemoveItemsFromCart({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...)">
+                  </a> <!-- CheckingRemoveItemsFromCart({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...) -->
+                  <span class="method-name">CheckingRemoveItemsFromCart</span>
+                  <span class="parameters">({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantity=3, Name=Mr. youssef sewalm, SecondItemQuantity=1, MobileNumber=01013940558, Address_1=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, EmptyCartMessage=empty!, Address_2=شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره, SecondItem=Men Tshirt, FirstItem=Blue Top, Country=India, AddedSuccessfullyMessage=Added!, LoginPassword=12345678})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTests-class-passed -->
+          <div class="suite-SmokeTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.SignUp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidSignUp">
+                  </a> <!-- ValidSignUp -->
+                  <span class="method-name">ValidSignUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTests-class-passed -->
+        </div> <!-- panel SmokeTests -->
+        <div panel-name="test-xml-SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\MohamedTarekEmbeddedAndSoftwareTestingDiploma\JavaTestingWorkspace\PlayWrightFirstTest\SmokeTests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SmokeTests&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;Smoke&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.SignUp&quot;/&gt;
+      &lt;class name=&quot;Tests.Login&quot;/&gt;
+      &lt;class name=&quot;Tests.PurchaseTests&quot;/&gt;
+      &lt;class name=&quot;Tests.CartTests&quot;/&gt;
+      &lt;class name=&quot;Tests.AddingItemsToCart&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- SmokeTests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SmokeTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SmokeTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AddItemsToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CheckingItemsPrices</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CheckingProductDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CheckingRemoveItemsFromCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CheckingSearchFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ValidLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ValidSignUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SmokeTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SmokeTests');
+function tableData_SmokeTests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'CheckingRemoveItemsFromCart')
+data.setCell(0, 2, 'Tests.CartTests')
+data.setCell(0, 3, 23600);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'AddItemsToCart')
+data.setCell(1, 2, 'Tests.AddingItemsToCart')
+data.setCell(1, 3, 3352);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ValidSignUp')
+data.setCell(2, 2, 'Tests.SignUp')
+data.setCell(2, 3, 3306);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CheckingProductDetails')
+data.setCell(3, 2, 'Tests.AddingItemsToCart')
+data.setCell(3, 3, 2658);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'CheckingSearchFunctionality')
+data.setCell(4, 2, 'Tests.AddingItemsToCart')
+data.setCell(4, 3, 1661);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ValidLogin')
+data.setCell(5, 2, 'Tests.Login')
+data.setCell(5, 3, 1584);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'CheckingItemsPrices')
+data.setCell(6, 2, 'Tests.CartTests')
+data.setCell(6, 3, 0);
+window.suiteTableData['SmokeTests']= { tableData: data, tableDiv: 'times-div-SmokeTests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <div id="times-div-SmokeTests">
+              </div> <!-- times-div-SmokeTests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SmokeTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">5 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.Login</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">InValidLogin</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.PurchaseTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">FullPurchaseProcessAlreadyLogin</span>
+                <br/>
+                <span class="ignored-method-name">FullPurchaseProcessNotLoggedIn</span>
+                <br/>
+                <span class="ignored-method-name">FullPurchaseProcessNotRegistered</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.SignUp</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">InvalidRegisterUsingAlreadyRegisteredEmail</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.CartTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CheckingItemsPrices</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.SignUp</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartSession</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigateToHomePage</span>
+                <span class="method-start">16539 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidSignUp</span>
+                <span class="method-start">17416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">EndSession</span>
+                <span class="method-start">20733 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.CartTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartSession</span>
+                <span class="method-start">21715 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigateToProductsPage</span>
+                <span class="method-start">30832 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CheckingRemoveItemsFromCart({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...)</span>
+                <span class="method-start">31618 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartSession</span>
+                <span class="method-start">55222 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigateToHomePage</span>
+                <span class="method-start">64110 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidLogin({LoginEmail=w4rior44500@gmail.com, LoginPassword=12345678})</span>
+                <span class="method-start">64901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">EndSession</span>
+                <span class="method-start">66487 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.CartTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">NavigateToProductsPage</span>
+                <span class="method-start">67469 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class after">
+                <span class="method-name">EndSession</span>
+                <span class="method-start">67525 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.AddingItemsToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartSession</span>
+                <span class="method-start">68252 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigateToHomePage</span>
+                <span class="method-start">80684 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddItemsToCart({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...)</span>
+                <span class="method-start">81513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigateToHomePage</span>
+                <span class="method-start">84884 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CheckingProductDetails({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...)</span>
+                <span class="method-start">85664 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">NavigateToHomePage</span>
+                <span class="method-start">88324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CheckingSearchFunctionality({SearchProduct=Top, Company=Vodoo, LoginEmail=w4rior44500@gmail.com, ZipCode=22222, FirstItemQuantit...)</span>
+                <span class="method-start">88714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">EndSession</span>
+                <span class="method-start">90376 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

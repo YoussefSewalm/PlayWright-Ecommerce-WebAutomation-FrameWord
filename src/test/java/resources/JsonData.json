@@ -1,0 +1,35 @@
+[
+	{
+		"LoginEmail":"w4rior44500@gmail.com",
+		"LoginPassword":"12345678"
+	},
+	{
+		"LoginEmail":"w4rior4410000@gmail.com",
+		"LoginPassword":"12345678"
+	},
+	{
+		"LoginEmail":"w4rior44500@gmail.com",
+		"LoginPassword":"12345678",
+		"SearchProduct":"Top",
+		"FirstItem":"Blue Top",
+		"SecondItem":"Men Tshirt",
+		"AddedSuccessfullyMessage":"Added!",
+		"FirstItemQuantity":"3",
+		"SecondItemQuantity":"1",
+		"EmptyCartMessage":"empty!",
+		"Name":"Mr. youssef sewalm",
+		"Company":"Vodoo",
+		"Address_1":"شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره",
+		"Address_2":"شارع رقم 4 عماره 72 ميدان النافوره المقطم القاهره",
+		"ZipCode":"22222",
+		"Country":"India",
+		"MobileNumber":"01013940558"
+	},
+	{
+		"FirstItem":"Blue Top",
+		"SecondItem":"Men Tshirt",
+		"AddedSuccessfullyMessage":"Added!",
+		"FirstItemQuantity":"3",
+		"SecondItemQuantity":"1"
+	}
+]
