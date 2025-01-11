@@ -8,7 +8,6 @@ public class Checkbox extends ElementsBase{
 	}
     public void Check() 
     {
-    	//page.waitForCondition(() -> page.locator(StringLocator).isEnabled());
     	page.click(StringLocator);
     }
 }
