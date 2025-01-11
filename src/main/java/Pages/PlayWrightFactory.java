@@ -27,7 +27,7 @@ public class PlayWrightFactory {
 	{
         Playwright playwright = Playwright.create();
         
-        switch(configprops.getProperty("Browser").toLowerCase()) //3shan sawa2 d5alt esm l browser capital aw small a3rf at3aml m3ah
+        switch(configprops.getProperty("Browser").toLowerCase()) 
         {
         case "chrome":
             browser = playwright.chromium().launch(new BrowserType.LaunchOptions()
