@@ -11,7 +11,7 @@ public class ElementsBase {
 	
 	public static void setDriver(Page page1) 
 	{
-      page=page1;		
+          page=page1;		
 	}
 	
     public ElementsBase(String locator)  //Constructor
