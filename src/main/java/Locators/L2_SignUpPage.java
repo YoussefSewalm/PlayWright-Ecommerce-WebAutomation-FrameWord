@@ -6,27 +6,27 @@ public class L2_SignUpPage {
 	public static String VerifySignUpPageText = "(//div[@class='login-form']//h2[@class='title text-center']//b)[1]";
 
 	//Buttons
-	public static String CreateAccountButton = "text='Create Account'";
+	public static String CreateAccountButton = "form[action='/signup']>button[type='submit']";
 	
 	//FormFields
-       public static String SignUpNameFormField = "#name";
-       public static String SignUpPasswordFormField = "#password";
-       public static String SignUpFirstNameFormField = "#first_name";
-       public static String SignUpLastNameFormField = "#last_name";
-       public static String SignUpCompanyFormField = "#company";
-       public static String SignUpFirstAddressFormField = "#address1";
-       public static String SignUpSecondAddressFormField = "#address2";
-       public static String SignUpStateFormField = "#state";
-       public static String SignUpCityFormField = "#city";
-       public static String SignUpZipCodeFormField = "#zipcode";
-       public static String SignUpMobileNumberFormField = "#mobile_number";
+        public static String SignUpNameFormField = "#name";
+        public static String SignUpPasswordFormField = "#password";
+        public static String SignUpFirstNameFormField = "#first_name";
+        public static String SignUpLastNameFormField = "#last_name";
+        public static String SignUpCompanyFormField = "#company";
+        public static String SignUpFirstAddressFormField = "#address1";
+        public static String SignUpSecondAddressFormField = "#address2";
+        public static String SignUpStateFormField = "#state";
+        public static String SignUpCityFormField = "#city";
+        public static String SignUpZipCodeFormField = "#zipcode";
+        public static String SignUpMobileNumberFormField = "#mobile_number";
 
 	
 	//DropMenu
-       public static String DaysDropMenu = "//select[@id='days']//option";
-       public static String MonthsDropMenu = "//select[@id='months']//option";
-       public static String YearsDropMenu = "//select[@id='years']//option";
-       public static String CountriesDropMenu = "//select[@id='country']//option";
+        public static String DaysDropMenu = "//select[@id='days']//option";
+        public static String MonthsDropMenu = "//select[@id='months']//option";
+        public static String YearsDropMenu = "//select[@id='years']//option";
+        public static String CountriesDropMenu = "//select[@id='country']//option";
 	
 	//CheckBox
 	public static String MaleCheckBox = "#id_gender1";
